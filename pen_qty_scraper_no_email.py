@@ -13,7 +13,7 @@ import datetime
 # In[175]:
 
 
-PATH_GD = '⁨Macintosh HD⁩/⁨Users⁩/romandavydov⁩/⁨Documents/chromedriver.exe⁩'
+PATH_GD = '⁨usr/⁨bin/chromedriver⁩'
 
 
 # In[176]:
@@ -59,7 +59,7 @@ except AttributeError as err:
 # In[190]:
 
 current_time = datetime.datetime.now()
-with open('Desktop/Masterschool/Selenium_Scraper_Lip_Pencil/rand2.txt', mode='a') as file:
+with open('rand2.txt', mode='a') as file:
     file.write(f"{current_time}, {result}")
 
 
